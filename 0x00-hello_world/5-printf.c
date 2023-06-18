@@ -1,10 +1,10 @@
 #include <studio.h>
 /**
- * main - Program that prints a lin with printf function
- * Return: 0 (success)
+ * main - Program that prints a line with printf function
+ * Return: 0 (successful)
  */
 int main(void)
 {
-printf("with proper grammar,the outcome is a piece of art, \n")
+printf("with proper grammar,the outcome is a piece of art, \n");
 return (0);
 }
