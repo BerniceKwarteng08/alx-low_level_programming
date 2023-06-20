@@ -19,9 +19,9 @@ int main(void)
 			d++;
 		}
 	while
-		(h <= 'z')
+		(h <= 'Z')
 		{
-			putchar(h);
+			putchar (h);
 			h++;
 		}
 	putchar('\n');
