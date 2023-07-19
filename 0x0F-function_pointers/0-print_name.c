@@ -1,0 +1,16 @@
+#include "function_pointers.h"
+#include <stdio.h>
+
+/**
+ * print_name - prints name using pointer
+ * @name: string to be checked
+ * @f: pointer to function
+ * Return: 0 (good to go)
+ */
+
+void print_name(char *name, void (*f)(char *))
+{
+	if (name == NULL || f == Null)
+		return;
+	f(name);
+}
